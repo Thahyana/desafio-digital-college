@@ -82,6 +82,8 @@ searchForm.addEventListener("submit", (e) => {
   const city = cityInput.value.trim();
   if (city) {
     getWeather(city);
+        cityInput.value = "";
+
   }
 });
 
