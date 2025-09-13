@@ -11,7 +11,7 @@ const lastUpdatedEl = document.getElementById("last_updated");
 const forecastEl = document.getElementById("forecast");
 
 const cityInput = document.getElementById("cityInput");
-const searchBtn = document.getElementById("searchBtn");
+const searchBtn = document.getElementById("searchForm");
 
 function showLoader() {
   document.getElementById("loader").classList.remove("d-none");
